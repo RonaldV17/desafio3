@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+}
+
+.titulo{
+    background-color: black;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 73px;
+    padding-top: 2em;
+    text-align: center;
+}
+
+.titulo h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0px;
+    width: 1280px;
+    height: 59px;
+    text-align: center;
+    margin: 0;
+
+}
+
+.banner{
+    background-image: url("../img/bg-header.jpg");
+    top: 73px;
+    left: 0px;
+    width: 1280px;
+    height: 727px;
+}
+
+.definicion{
+    width: 1280px;
+    height: 348px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flow-root;
+}
+
+.definicion img{
+    float: right;
+    width: 399px;
+    height: 237px;
+    padding: 2em;
+    margin-top: 1em;
+}
+
+.definicion p{
+    display: inline-block;
+    width: 50%;
+    height: 30%;
+    color: white;
+    text-align: left;
+    padding: 2em;
+    margin-top: 4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.caracteristicas{
+    width: 1280px;
+    height: 348px;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.98;
+    display: inline-block;
+}
+
+.caracteristicas h2{
+    color: white;
+    text-align: center;
+}
+
+.feature{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    padding: 3em;
+    padding-left: 0;
+    padding-right: 0;
+    color: white;
+    margin-top: 1em;
+}
+
+.feature i{
+    display: block;
+    padding: 0,5em;
+    color: white;
+}
+
+.gallery{
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.96;
+    top: 1488px;
+    left: 0px;
+    width: 1280px;
+    height: 348px;
+    align-content: center;
+
+}
+
+.foto{
+    display: inline-block;
+    width: 33%;
+    margin-top: 2em;
+}
+
+.foto img{
+    width: 316px;
+    height: 202px;
+    padding: 2em;
+}
+
+footer{
+    color: white;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.94;
+    text-align: center;
+    display: inline-block;
+    width: 1280px;
+    height: 73px;
+}
+
+footer p{
+    padding: 1em;
+}
